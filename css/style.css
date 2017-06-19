@@ -18,8 +18,6 @@
 	width: 85%;
 	align-self: center;
 }
-
-
 #wrapper {
 	margin: 0;
 	padding: 0;
@@ -81,7 +79,7 @@
 .vals {
 	position: absolute;
 	border: .6px solid;
-	padding: 2px;
+	padding: .2em;
 	font-size: x-small;
 }
 .vals:hover {
