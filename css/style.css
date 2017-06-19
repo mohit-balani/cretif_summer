@@ -26,3 +26,51 @@
 	width: 100%;
 	height: 100%;
 }
+#nm{
+    position:absolute;
+    bottom:0%;
+    left:3%;
+    color:#000000;
+}
+#nm1{
+    position:absolute;
+    bottom:6%;
+    left:0%;
+    color:#000000;
+}
+#ap{
+    position:absolute;
+    bottom:0%;
+    left:25%;
+    color:#000000;
+}
+#ap1{
+    position:absolute;
+    bottom:6%;
+    left:0%;
+    color:#000000;
+}
+#sa{
+    position:absolute;
+    bottom:0%;
+    left:58%;
+    color:#000000;
+}
+#sa1{
+    position:absolute;
+    bottom:6%;
+    right:0%;
+    color:#000000;
+}
+#mb{
+    position:absolute;
+    bottom:0%;
+    left:85%;
+    color:#000000;
+}
+#mb1{
+    position:absolute;
+    bottom:6%;
+    right:0%;
+    color:#000000;
+}
