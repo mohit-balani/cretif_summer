@@ -74,16 +74,4 @@
     right:0%;
     color:#000000;
 }
-#as2 {
-	margin-left: 8.2%;
-	margin-top: 19.1%;
-}
-.vals {
-	position: absolute;
-	border: .6px solid;
-	padding: 2px;
-	font-size: x-small;
-}
-.vals:hover {
-	border: 2px outset;
-}
+

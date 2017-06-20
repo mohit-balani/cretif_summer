@@ -8,3 +8,13 @@ $(document).ready(function(){
 	$("#mb").animate({bottom:'3%'}, 3000);
 	$("#mb1").animate({right:'7.5%'}, 3000);
 })
+$('.button').click(function(){
+  var buttonId = $(this).attr('id');
+  $('#modal-container').removeAttr('class').addClass(buttonId);
+  $('body').addClass('modal-active');
+})
+
+$('#modal-container').click(function(){
+  $(this).addClass('out');
+  $('body').removeClass('modal-active');
+});
