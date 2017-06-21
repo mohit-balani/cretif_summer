@@ -97,7 +97,12 @@
 	border: .6px solid;
 	padding: .3em;
 	font-size: x-small;
+	background-color: #347697;
+}
+
+a:link , a, a:visited, a:active, a:focus{
 	text-decoration: none;
+	color: White;
 }
 .vals:hover {
 	border: 2px outset;
