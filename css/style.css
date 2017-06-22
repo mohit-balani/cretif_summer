@@ -74,4 +74,123 @@
     right:0%;
     color:#000000;
 }
+body{
+  background-color:#E9E9E9;/*#292B2C*/;
+}
 
+#modal{
+  display:none;
+  position:absolute;
+  background-color:#F5F5F6;
+  top:50%;
+  left:50%;
+  z-index:101;
+  box-shadow:0 0 10px 0px rgba(0,0,0,0.3);
+  border-radius:3px;
+  width:0px;
+  height:0px;
+  margin-top:10px;
+  margin-left:10px;
+  oveflow:hidden;
+  padding:10px;
+}
+.modal-bg{
+  display:none;
+  cursor:pointer;
+  position:fixed;
+ left:0;right:0;
+ top:0;bottom:0;
+  z-index:100;
+  background-color:rgba(0,0,0,0.4);
+}
+
+.button{
+  font-size:15px;
+  background:#00d2f7;
+  border-radius:4px;
+  padding:10px;
+  color:#fff;
+  float:right;
+  margin:50px;
+  font-family:'Lucida Sans Unicode';
+  transition-duration:0.2s;
+  text-decoration:none;
+  text-shadow:0 0 2px #aaa;
+  border:1px solid #00C5E7;
+}
+
+.button:hover{
+  background:#02b7d3;
+}
+
+.close{
+  float:right;
+  text-decoration:none;
+  font-family:'arial';
+  font-size:22px;
+  margin: 3px 8px 0 0;
+}
+
+#p{
+  font:16px/24px 'Lucida sans';
+  padding:10px;
+  width:250px;
+  height: 100px;
+}
+.historyinput {
+width: 35px !important;
+}
+.presentinput{
+width: 35px !important;
+
+}
+
+#powers2 {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+.powers2c {
+    position: absolute;
+    margin-top: 0;
+    top: 9.5px;
+    left: 230px;
+}
+#voltages2 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.voltages2c {
+    position: absolute;
+    margin-top: 0;
+    top: 29.5px;
+    left: 230px;
+}
+#currents2 {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.currents2c {
+    position: absolute;
+    margin-top: 0;
+    top: 49.5px;
+    left: 230px;
+}
+#frequencys2 {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}
+.frequencys2c {
+    position: absolute;
+    margin-top: 0;
+    top: 69.5px;
+    left: 230px;
+}
+.okinput{
+  position:absolute;
+  top:50%;
+  left:80%;
+}
