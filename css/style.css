@@ -26,6 +26,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
+/*names of the creators*/
 #nm{
     position:absolute;
     bottom:0%;
@@ -74,6 +75,9 @@ body {
     right:0%;
     color:#000000;
 }
+
+
+/*substations*/
 #AcademicSubstation2 {
 	margin-left: 8.2%;
 	margin-top: 19.1%;
@@ -120,6 +124,8 @@ a:link , a, a:visited, a:active, a:focus{
 body{
   background-color:#E9E9E9;/*#292B2C*/;
 }
+
+/*modal*/
 #modal{
   display:none;
   position:absolute;
