@@ -2,7 +2,6 @@
 /* CSS Document */
 body {
 	position: relative;
-	background-color:#E9E9E9;	
 }
 #hero {
 	text-align: center;
@@ -117,6 +116,9 @@ a:link , a, a:visited, a:active, a:focus{
 	top: 0;
 	left: 0;
 	z-index: 1;
+}
+body{
+  background-color:#E9E9E9;/*#292B2C*/;
 }
 #modal{
   display:none;
