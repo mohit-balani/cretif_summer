@@ -127,7 +127,7 @@ body{
 
 #modal{
   display:none;
-  position:absolute;
+  position:fixed;
   background-color:#F5F5F6;
   top:50%;
   left:50%;
@@ -138,7 +138,7 @@ body{
   height:0px;
   margin-top:10px;
   margin-left:10px;
-  oveflow:hidden;
+  overflow:hidden;
   padding:10px;
 }
 .modal-bg{
