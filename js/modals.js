@@ -1,1 +1,3 @@
-function SubstationTracer()
+function SubstationTracer(substation) {
+	document.getElementById(substation)
+}
