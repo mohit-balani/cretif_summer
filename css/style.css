@@ -125,7 +125,6 @@ body{
   background-color:#E9E9E9;/*#292B2C*/;
 }
 
-/*modal*/
 #modal{
   display:none;
   position:absolute;
@@ -139,15 +138,15 @@ body{
   height:0px;
   margin-top:10px;
   margin-left:10px;
-  overflow:hidden;
+  oveflow:hidden;
   padding:10px;
 }
 .modal-bg{
   display:none;
   cursor:pointer;
   position:fixed;
-  left:0;right:0;
-  top:0;bottom:0;
+ left:0;right:0;
+ top:0;bottom:0;
   z-index:100;
   background-color:rgba(0,0,0,0.4);
 }
