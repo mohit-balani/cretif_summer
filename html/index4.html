@@ -1,21 +1,30 @@
 <!doctype html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="../js/madeby2.js"> </script>
+    <script src="../js/madeby.js"> </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>Bird's View</title>
-  <link href="../css/style2.css" rel="stylesheet" type="text/css">
+	<title>Bird's View</title>
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <div id = "wrapper">
 <body>
 
 
-
+<!--Here goes the divs that will show the realtime values of the power attributes.-->
+<div id="modal"><a href="" class="close">&#215;</a>
+<div id="p">
+ <form id="form_s2" action="" method="post">
+  <input class="historyinput" type="radio" name="joke" value="History" /> History  
+  <input class="presentinput" type="radio" name="joke" value="Present" /> Present
+  <input class="okinput" type="submit" value="OK">
+</form>
+</div>
+</div>
 <div id="AcademicSubstation2" class = "vals" >
-<span class="button" onclick='substationTracer("ab2")'>
+<span class="button" onclick='substationTracer("as2")'>
 <a><div id="border">
   <span class='blabla'>P: </span><input type='text' id='poas2' size="8" readonly><br>
 <span class='blabla'>I: </span><input type='text' id='inas2' size="8" readonly><br>
@@ -26,7 +35,7 @@
 </span>
 </div>
 <div id="AcademicSubstation1" class = "vals" >
-<span class="button" onclick='substationTracer("ab1")'>
+<span class="button" onclick='substationTracer("as1")'>
 <a><div id="border">
   <span class='blabla'>P: </span><input type='text' id='poas1' size="8" readonly><br>
 <span class='blabla'>I: </span><input type='text' id='inas1' size="8" readonly><br>
@@ -71,7 +80,7 @@
 </div>
 <div id = "hero">
   <figure>
-    <img src="../images/IIT-Master SLD.png" alt="IIT_master.png"/>
+  	<img src="../images/IIT-Master SLD.png" alt="IIT_master.png"/>
   </figure>
 </div>
 
