@@ -79,7 +79,7 @@ body {
 
 /*substations*/
 #AcademicSubstation2 {
-	margin-left: 2.9%;
+	margin-left: 5%;
 	margin-top: 19.5%;
 }
 #MainInfra {
@@ -87,15 +87,15 @@ body {
 	margin-top: 19.1%;
 }
 #AcademicSubstation1 {
-	margin-left: 1.5%;
+	margin-left: 5%;
 	margin-top: 36.1%;
 }
 #HostelSubstation {
-	margin-left: 85.7%;
-	margin-top: 33.1%;
+	margin-left: 84.85%;
+	margin-top: 35.5%;
 }
 #WaterTreatmentPlant {
-	margin-left: 31.2%;
+	margin-left: 32%;
 	margin-top: 40.1%;
 }
 .blabla{
