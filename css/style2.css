@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  position: absolute;
+}
+#hero {
+  text-align: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#hero figure {
+  margin: 0;
+  padding: 0;
+}
+#hero figure img {
+  padding: 0;
+  margin: 0;
+  width: 85%;
+  align-self: center;
+}
+#wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+/*names of the creators*/
+#nm{
+    position:fixed;
+    bottom:0%;
+    left:3%;
+    color:#000000;
+}
+#nm1{
+    position:fixed;
+    bottom:6%;
+    left:0%;
+    color:#000000;
+}
+#ap{
+    position:fixed;
+    bottom:0%;
+    left:25%;
+    color:#000000;
+}
+#ap1{
+    position:fixed;
+    bottom:6%;
+    left:0%;
+    color:#000000;
+}
+#sa{
+    position:fixed;
+    bottom:0%;
+    left:58%;
+    color:#000000;
+}
+#sa1{
+    position:fixed;
+    bottom:6%;
+    right:0%;
+    color:#000000;
+}
+#mb{
+    position:fixed;
+    bottom:0%;
+    left:85%;
+    color:#000000;
+}
+#mb1{
+    position:fixed;
+    bottom:6%;
+    right:0%;
+    color:#000000;
+}
+
+
+/*substations*/
+#AcademicSubstation2 {
+  margin-left: 8.2%;
+  margin-top: 19.1%;
+}
+#MainInfra {
+  margin-left: 76.2%;
+  margin-top: 19.1%;
+}
+#AcademicSubstation1 {
+  margin-left: 8.2%;
+  margin-top: 36.1%;
+}
+#HostelSubstation {
+  margin-left: 84.7%;
+  margin-top: 36.1%;
+}
+#WaterTreatmentPlant {
+  margin-left: 35.2%;
+  margin-top: 40.1%;
+}
+.blabla{
+    
+    float: left;
+    clear: left;
+    width: 11px;
+    text-align: left;
+}
+.vals {
+  position: absolute;
+  border: .6px solid;
+  padding: .3em;
+  font-size: x-small;
+  background-color: 000000;
+}
+
+
+
+body{
+  background-color:#E9E9E9;/*#292B2C*/;
+}
+
+
+#powers2 {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+.powers2c {
+    position: absolute;
+    margin-top: 0;
+    top: 9.5px;
+    left: 230px;
+}
+#voltages2 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+.voltages2c {
+    position: absolute;
+    margin-top: 0;
+    top: 29.5px;
+    left: 230px;
+}
+#currents2 {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.currents2c {
+    position: absolute;
+    margin-top: 0;
+    top: 49.5px;
+    left: 230px;
+}
+#frequencys2 {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+}
+.frequencys2c {
+    position: absolute;
+    margin-top: 0;
+    top: 69.5px;
+    left: 230px;
+}
+.okinput{
+  position:absolute;
+  top:50%;
+  left:80%;
+}
