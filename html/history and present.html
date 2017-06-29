@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#entire").hide();
+    $("button").click(function(){
+        $("p").hide(1000);
+        $("#entire").show(1000);
+    });
+});
+
+</script>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+.beautydrop {
+    position: relative;
+    display: inline-block;
+}
+
+.beautydropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff9933;
+    width: 90%;
+  padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  border-radius: 10px;
+  font-family:'Comic sans ms'
+}
+
+.beautydropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.beautydropdown-content a:hover {background-color: #f1f1f1}
+
+.beautydrop:hover .beautydropdown-content {
+    display: block;
+}
+.input-w label {
+    display: inline-block;
+    vertical-align: middle;    
+}
+.input-w input {
+    display: inline-block;
+    vertical-align: middle;
+}
+#adjust {
+  float:right;
+}
+#entire
+{
+    z-index:500;
+    width:50%;
+	padding: 1em 1em;
+	text-align: left;
+  border-radius: 10px;
+  font-family:'Comic sans ms'
+}
+#content
+{
+    
+    width:110%;
+	padding: 1em 1em;
+	text-align: left;
+  border-radius: 10px;
+  font-family:'Comic sans ms'
+}
+#entire a
+{
+    color: 000000;
+    text-decoration: none;
+    
+    margin: 0px 50px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+#content a
+{
+    color: 000000;
+    text-decoration: none;
+    
+    margin: 20px 90px;
+    
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+.red
+{
+    background: #f44336;
+}
+/* Top and Bottom borders go out */
+#entire.topBotomBordersOut a:before, #entire.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+#entire.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+#entire.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+#entire.topBotomBordersOut a:hover:before, #entire.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+</style>
+</head>
+<body>
+<button>Hide</button>
+<div id="entire" class="container red topBotomBordersOut">
+	<div class="beautydrop"><a>HISTORY</a>
+	<div id="content" class="beautydropdown-content">
+		<div class="input-w">
+			<label for="#your-input" >FROM:</label>
+			<input type="date" id="adjust" />
+		</div>
+		<br>
+		<div class="input-w">
+			<label for="#your-input">TO:  </label>
+			<input type="date" id="adjust" />
+		</div>
+		<br>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">POWeR</label>
+
+		</div>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">VOLTAGE</label>
+
+		</div>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">CURRENT</label>
+
+		</div>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">FREQUENCY</label>
+		</div>
+	</div>
+	</div>
+  <div class='beautydrop'>
+  <a id="position" >PRESENT</a>
+    <div class="beautydropdown-content">
+  
+<div class="input-w">
+<input type="checkbox" id="your-input" />
+    <label for="#your-input">POWER</label>
+    
+</div>
+<div class="input-w">
+<input type="checkbox" id="your-input" />
+    <label for="#your-input">VOLTAGE</label>
+    
+</div>
+<div class="input-w">
+<input type="checkbox" id="your-input" />
+    <label for="#your-input">CURRENT</label>
+    
+</div>
+<div class="input-w">
+<input type="checkbox" id="your-input" />
+    <label for="#your-input">FREQUENCY</label>
+    
+</div>
+
+
+  </div>
+  </div>
+</div>
+
+<p>This is a paragraph with little content.</p>
+<p>This is another small paragraph.</p>
+
+</body>
+</html>
