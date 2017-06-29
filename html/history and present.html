@@ -12,8 +12,6 @@ $(document).ready(function(){
 });
 
 </script>
-</head>
-<body>
 <style>
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
@@ -50,18 +48,13 @@ $(document).ready(function(){
     display: inline-block;
     vertical-align: middle;    
 }
-
 .input-w input {
     display: inline-block;
     vertical-align: middle;
 }
-
-
 #adjust {
   float:right;
 }
-
-
 #entire
 {
     z-index:500;
@@ -80,7 +73,6 @@ $(document).ready(function(){
   border-radius: 10px;
   font-family:'Comic sans ms'
 }
-
 #entire a
 {
     color: 000000;
@@ -103,7 +95,6 @@ $(document).ready(function(){
     z-index: 0;
     cursor: pointer;
 }
-
 .red
 {
     background: #f44336;
@@ -120,7 +111,6 @@ $(document).ready(function(){
     opacity: 0;
     transition: all 0.3s;
 }
-
 #entire.topBotomBordersOut a:before
 {
     top: 0px;
@@ -138,51 +128,44 @@ $(document).ready(function(){
     opacity: 1;
     transform: translateY(0px);
 }
-
-
 </style>
+</head>
+<body>
 <button>Hide</button>
 <div id="entire" class="container red topBotomBordersOut">
-	
-  <div class="beautydrop">
-  
-  <a>HISTORY</a>
-  
-    <div id="content" class="beautydropdown-content">
-  <div class="input-w">
-    <label for="#your-input" >FROM:</label>
-    <input type="date" id="adjust" />
-</div>
-      <br>
-    <div class="input-w">
-    <label for="#your-input">TO:  </label>
-    <input type="date" id="adjust" />
-</div>
-      <br>
-<div class="input-w">
-<input type="checkbox" id="your-input" />
-    <label for="#your-input">POWeR</label>
-    
-</div>
-<div class="input-w">
-<input type="checkbox" id="your-input" />
-    <label for="#your-input">VOLTAGE</label>
-    
-</div>
-<div class="input-w">
-<input type="checkbox" id="your-input" />
-    <label for="#your-input">CURRENT</label>
-    
-</div>
-<div class="input-w">
-<input type="checkbox" id="your-input" />
-    <label for="#your-input">FREQUENCY</label>
-    
-</div>
+	<div class="beautydrop"><a>HISTORY</a>
+	<div id="content" class="beautydropdown-content">
+		<div class="input-w">
+			<label for="#your-input" >FROM:</label>
+			<input type="date" id="adjust" />
+		</div>
+		<br>
+		<div class="input-w">
+			<label for="#your-input">TO:  </label>
+			<input type="date" id="adjust" />
+		</div>
+		<br>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">POWeR</label>
 
+		</div>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">VOLTAGE</label>
 
-  </div>
-  </div>
+		</div>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">CURRENT</label>
+
+		</div>
+		<div class="input-w">
+			<input type="checkbox" id="your-input" />
+			<label for="#your-input">FREQUENCY</label>
+		</div>
+	</div>
+	</div>
   <div class='beautydrop'>
   <a id="position" >PRESENT</a>
     <div class="beautydropdown-content">
@@ -211,8 +194,6 @@ $(document).ready(function(){
 
   </div>
   </div>
-  
-  
 </div>
 
 <p>This is a paragraph with little content.</p>
