@@ -58,5 +58,41 @@ var sub;
 function substationTracer(sub){
   alert(sub)
 } 
+$(document).ready(function(){
+  $("#entire").hide();
+    $(".vals").click(function(){
+        $("#entire").show(1000);
+    });
+    $(".close").click(function(){
+      $("#entire").hide(1000);
+    });
+     var $win = $("#hero"); // or $box parent container
+        var $box = $("#entire");
+        var $dc = $(".vals")
+      
+        
+         $win.on("click.Bst", function(event){    
+          if ( 
+            $box.has(event.target).length == 0 //checks if descendants of $box was clicked
+            &&
+            !$box.is(event.target) 
+            &&
+            !$dc.is(event.target)//checks if the $box itself was clicked
+          ){
+            $("#entire").hide(1000);
+          }
+    });
+     var $checkboxes = $('.counter input[type="checkbox"]');
+      
+    $checkboxes.change(function(){
+        var countCheckedCheckboxes = $checkboxes.filter(':checked').length;
+        if(countCheckedCheckboxes>=3){
+          alert("Please choose only two variables!")
+        }
+      
+      
+        
+    });
+});
 
 
