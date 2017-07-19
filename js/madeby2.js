@@ -56,7 +56,7 @@ document.getElementById('frmi').value=a;
 })
 var sub;
 function substationTracer(sub){
-  alert(sub)
+  alert(sub);
 } 
 $(document).ready(function(){
   $("#entire").hide();
